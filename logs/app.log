@@ -1,0 +1,333 @@
+2026-10-12 15:20:31,984 | INFO | src.transcriber.services.governance | Transcription request accepted | model=large-v3 | device=cpu
+2026-10-12 15:20:31,985 | INFO | src.transcriber.services.transcription | Transcription started | file=C:\Users\JARVIZ~1\AppData\Local\Temp\tmpy7lgw6j6.mp3
+2026-10-12 15:20:35,981 | INFO | src.transcriber.services.governance | Transcription request accepted | model=large-v3 | device=cpu
+2026-10-12 15:20:35,982 | INFO | src.transcriber.services.transcription | Transcription started | file=C:\Users\JARVIZ~1\AppData\Local\Temp\tmprueaxoi8.mp3
+2026-10-12 15:25:25,480 | INFO | src.transcriber.services.governance | Transcription request accepted | model=large-v3 | device=cpu
+2026-10-12 15:25:25,480 | INFO | src.transcriber.services.transcription | Transcription started | file=C:\Users\JARVIZ~1\AppData\Local\Temp\tmpz7w7wica.mp3
+2026-10-12 15:25:25,480 | INFO | src.transcriber.services.transcription | Decoding audio with PyAV | file=C:\Users\JARVIZ~1\AppData\Local\Temp\tmpz7w7wica.mp3
+2026-10-12 15:25:26,907 | INFO | src.transcriber.services.transcription | Audio decoded | source_sample_rate=48000 | target_sample_rate=16000 | duration=300.00s
+2026-10-12 15:25:26,913 | INFO | src.transcriber.services.transcription | Audio ready | duration=300.00s | chunk_size=60s
+2026-10-12 15:25:26,914 | INFO | src.transcriber.services.transcription | Running Silero VAD
+2026-10-12 15:25:29,287 | INFO | src.transcriber.services.transcription | VAD completed | speech_regions=0
+2026-10-12 15:55:38,324 | INFO | src.transcriber.services.governance | Transcription request accepted | model=large-v3 | device=cpu
+2026-10-12 15:55:38,326 | INFO | src.transcriber.services.transcription | Transcription started | file=C:\Users\JARVIZ~1\AppData\Local\Temp\tmpd1kqjfex.mp3
+2026-10-12 15:55:38,326 | INFO | src.transcriber.services.transcription | Decoding audio with PyAV | file=C:\Users\JARVIZ~1\AppData\Local\Temp\tmpd1kqjfex.mp3
+2026-10-12 15:55:39,157 | INFO | src.transcriber.services.transcription | Audio decoded | source_sample_rate=22050 | target_sample_rate=16000 | duration=329.17s
+2026-10-12 15:55:39,162 | INFO | src.transcriber.services.transcription | Audio ready | duration=329.17s | chunk_size=60s
+2026-10-12 15:55:39,162 | INFO | src.transcriber.services.transcription | Running Silero VAD
+2026-10-12 15:55:42,236 | INFO | src.transcriber.services.transcription | VAD completed | speech_regions=67
+2026-10-12 15:55:42,236 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=1 | region=1 | start=0.60s | end=5.20s | duration=4.60s
+2026-10-12 15:55:42,241 | INFO | faster_whisper | Processing audio with duration 00:04.600
+2026-10-12 15:55:48,676 | INFO | faster_whisper | Detected language 'en' with probability 0.91
+2026-10-12 15:55:56,545 | INFO | src.transcriber.services.transcription | Language detected | language=en | probability=0.9057
+2026-10-12 15:55:56,547 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=1 | duration=4.60s | segments=1
+2026-10-12 15:55:56,547 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=2 | region=2 | start=6.00s | end=13.20s | duration=7.20s
+2026-10-12 15:55:56,547 | INFO | faster_whisper | Processing audio with duration 00:07.200
+2026-10-12 15:56:05,028 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=2 | duration=7.20s | segments=4
+2026-10-12 15:56:05,028 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=3 | region=3 | start=13.80s | end=17.50s | duration=3.70s
+2026-10-12 15:56:05,028 | INFO | faster_whisper | Processing audio with duration 00:03.700
+2026-10-12 15:56:14,842 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=3 | duration=3.70s | segments=1
+2026-10-12 15:56:14,842 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=4 | region=4 | start=18.20s | end=19.00s | duration=0.80s
+2026-10-12 15:56:14,843 | INFO | faster_whisper | Processing audio with duration 00:00.800
+2026-10-12 15:56:27,719 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=4 | duration=0.80s | segments=1
+2026-10-12 15:56:27,719 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=5 | region=5 | start=20.10s | end=20.50s | duration=0.40s
+2026-10-12 15:56:27,719 | INFO | faster_whisper | Processing audio with duration 00:00.400
+2026-10-12 15:56:37,992 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=5 | duration=0.40s | segments=1
+2026-10-12 15:56:37,992 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=6 | region=6 | start=22.60s | end=27.50s | duration=4.90s
+2026-10-12 15:56:37,992 | INFO | faster_whisper | Processing audio with duration 00:04.900
+2026-10-12 15:56:52,388 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=6 | duration=4.90s | segments=1
+2026-10-12 15:56:52,388 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=7 | region=7 | start=27.90s | end=32.40s | duration=4.50s
+2026-10-12 15:56:52,388 | INFO | faster_whisper | Processing audio with duration 00:04.500
+2026-10-12 15:57:07,719 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=7 | duration=4.50s | segments=3
+2026-10-12 15:57:07,720 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=8 | region=8 | start=32.90s | end=33.60s | duration=0.70s
+2026-10-12 15:57:07,721 | INFO | faster_whisper | Processing audio with duration 00:00.700
+2026-10-12 15:57:21,050 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=8 | duration=0.70s | segments=1
+2026-10-12 15:57:21,050 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=9 | region=9 | start=34.20s | end=35.20s | duration=1.00s
+2026-10-12 15:57:21,050 | INFO | faster_whisper | Processing audio with duration 00:01.000
+2026-10-12 15:57:34,427 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=9 | duration=1.00s | segments=1
+2026-10-12 15:57:34,427 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=10 | region=10 | start=36.10s | end=41.60s | duration=5.50s
+2026-10-12 15:57:34,428 | INFO | faster_whisper | Processing audio with duration 00:05.500
+2026-10-12 15:57:49,023 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=10 | duration=5.50s | segments=1
+2026-10-12 15:57:49,023 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=11 | region=11 | start=42.20s | end=43.70s | duration=1.50s
+2026-10-12 15:57:49,023 | INFO | faster_whisper | Processing audio with duration 00:01.500
+2026-10-12 15:58:02,679 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=11 | duration=1.50s | segments=1
+2026-10-12 15:58:02,679 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=12 | region=12 | start=45.80s | end=50.50s | duration=4.70s
+2026-10-12 15:58:02,679 | INFO | faster_whisper | Processing audio with duration 00:04.700
+2026-10-12 15:58:18,817 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=12 | duration=4.70s | segments=2
+2026-10-12 15:58:18,817 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=13 | region=13 | start=51.10s | end=54.50s | duration=3.40s
+2026-10-12 15:58:18,817 | INFO | faster_whisper | Processing audio with duration 00:03.400
+2026-10-12 15:58:33,034 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=13 | duration=3.40s | segments=2
+2026-10-12 15:58:33,034 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=14 | region=14 | start=55.40s | end=59.90s | duration=4.50s
+2026-10-12 15:58:33,034 | INFO | faster_whisper | Processing audio with duration 00:04.500
+2026-10-12 15:58:47,719 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=14 | duration=4.50s | segments=2
+2026-10-12 15:58:47,719 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=15 | region=15 | start=63.20s | end=65.30s | duration=2.10s
+2026-10-12 15:58:47,719 | INFO | faster_whisper | Processing audio with duration 00:02.100
+2026-10-12 15:59:01,330 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=15 | duration=2.10s | segments=1
+2026-10-12 15:59:01,330 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=16 | region=16 | start=66.20s | end=68.50s | duration=2.30s
+2026-10-12 15:59:01,330 | INFO | faster_whisper | Processing audio with duration 00:02.300
+2026-10-12 15:59:15,057 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=16 | duration=2.30s | segments=1
+2026-10-12 15:59:15,057 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=17 | region=17 | start=69.50s | end=70.70s | duration=1.20s
+2026-10-12 15:59:15,057 | INFO | faster_whisper | Processing audio with duration 00:01.200
+2026-10-12 15:59:28,771 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=17 | duration=1.20s | segments=1
+2026-10-12 15:59:28,772 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=18 | region=18 | start=71.40s | end=74.50s | duration=3.10s
+2026-10-12 15:59:28,772 | INFO | faster_whisper | Processing audio with duration 00:03.100
+2026-10-12 15:59:42,931 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=18 | duration=3.10s | segments=1
+2026-10-12 15:59:42,931 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=19 | region=19 | start=76.40s | end=79.50s | duration=3.10s
+2026-10-12 15:59:42,931 | INFO | faster_whisper | Processing audio with duration 00:03.100
+2026-10-12 15:59:57,117 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=19 | duration=3.10s | segments=1
+2026-10-12 15:59:57,117 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=20 | region=20 | start=80.20s | end=82.90s | duration=2.70s
+2026-10-12 15:59:57,117 | INFO | faster_whisper | Processing audio with duration 00:02.700
+2026-10-12 16:00:11,205 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=20 | duration=2.70s | segments=1
+2026-10-12 16:00:11,205 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=21 | region=21 | start=84.50s | end=91.30s | duration=6.80s
+2026-10-12 16:00:11,205 | INFO | faster_whisper | Processing audio with duration 00:06.800
+2026-10-12 16:00:26,679 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=21 | duration=6.80s | segments=1
+2026-10-12 16:00:26,679 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=22 | region=22 | start=93.50s | end=97.20s | duration=3.70s
+2026-10-12 16:00:26,679 | INFO | faster_whisper | Processing audio with duration 00:03.700
+2026-10-12 16:00:40,898 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=22 | duration=3.70s | segments=1
+2026-10-12 16:00:40,898 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=23 | region=23 | start=97.70s | end=100.00s | duration=2.30s
+2026-10-12 16:00:40,898 | INFO | faster_whisper | Processing audio with duration 00:02.300
+2026-10-12 16:00:55,549 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=23 | duration=2.30s | segments=1
+2026-10-12 16:00:55,550 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=24 | region=24 | start=101.70s | end=103.70s | duration=2.00s
+2026-10-12 16:00:55,550 | INFO | faster_whisper | Processing audio with duration 00:02.000
+2026-10-12 16:01:08,821 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=24 | duration=2.00s | segments=1
+2026-10-12 16:01:08,822 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=25 | region=25 | start=105.30s | end=106.00s | duration=0.70s
+2026-10-12 16:01:08,822 | INFO | faster_whisper | Processing audio with duration 00:00.700
+2026-10-12 16:01:22,841 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=25 | duration=0.70s | segments=1
+2026-10-12 16:01:22,841 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=26 | region=26 | start=107.30s | end=108.80s | duration=1.50s
+2026-10-12 16:01:22,841 | INFO | faster_whisper | Processing audio with duration 00:01.500
+2026-10-12 16:01:36,758 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=26 | duration=1.50s | segments=1
+2026-10-12 16:01:36,758 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=27 | region=27 | start=110.00s | end=111.10s | duration=1.10s
+2026-10-12 16:01:36,758 | INFO | faster_whisper | Processing audio with duration 00:01.100
+2026-10-12 16:01:50,806 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=27 | duration=1.10s | segments=1
+2026-10-12 16:01:50,806 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=28 | region=28 | start=111.80s | end=115.50s | duration=3.70s
+2026-10-12 16:01:50,806 | INFO | faster_whisper | Processing audio with duration 00:03.700
+2026-10-12 16:02:05,676 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=28 | duration=3.70s | segments=1
+2026-10-12 16:02:05,676 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=29 | region=29 | start=116.30s | end=121.50s | duration=5.20s
+2026-10-12 16:02:05,676 | INFO | faster_whisper | Processing audio with duration 00:05.200
+2026-10-12 16:02:20,599 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=29 | duration=5.20s | segments=1
+2026-10-12 16:02:20,599 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=30 | region=30 | start=122.00s | end=124.50s | duration=2.50s
+2026-10-12 16:02:20,600 | INFO | faster_whisper | Processing audio with duration 00:02.500
+2026-10-12 16:02:34,658 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=30 | duration=2.50s | segments=1
+2026-10-12 16:02:34,658 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=31 | region=31 | start=126.60s | end=129.40s | duration=2.80s
+2026-10-12 16:02:34,658 | INFO | faster_whisper | Processing audio with duration 00:02.800
+2026-10-12 16:02:49,334 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=31 | duration=2.80s | segments=1
+2026-10-12 16:02:49,334 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=32 | region=32 | start=130.70s | end=132.60s | duration=1.90s
+2026-10-12 16:02:49,334 | INFO | faster_whisper | Processing audio with duration 00:01.900
+2026-10-12 16:02:59,239 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=32 | duration=1.90s | segments=1
+2026-10-12 16:02:59,239 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=33 | region=33 | start=133.80s | end=134.70s | duration=0.90s
+2026-10-12 16:02:59,239 | INFO | faster_whisper | Processing audio with duration 00:00.900
+2026-10-12 16:03:09,453 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=33 | duration=0.90s | segments=1
+2026-10-12 16:03:09,453 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=34 | region=34 | start=138.00s | end=140.10s | duration=2.10s
+2026-10-12 16:03:09,454 | INFO | faster_whisper | Processing audio with duration 00:02.100
+2026-10-12 16:03:23,646 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=34 | duration=2.10s | segments=1
+2026-10-12 16:03:23,646 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=35 | region=35 | start=141.00s | end=143.00s | duration=2.00s
+2026-10-12 16:03:23,646 | INFO | faster_whisper | Processing audio with duration 00:02.000
+2026-10-12 16:03:33,611 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=35 | duration=2.00s | segments=1
+2026-10-12 16:03:33,611 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=36 | region=36 | start=143.50s | end=144.50s | duration=1.00s
+2026-10-12 16:03:33,611 | INFO | faster_whisper | Processing audio with duration 00:01.000
+2026-10-12 16:03:41,689 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=36 | duration=1.00s | segments=1
+2026-10-12 16:03:41,689 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=37 | region=37 | start=145.40s | end=146.50s | duration=1.10s
+2026-10-12 16:03:41,689 | INFO | faster_whisper | Processing audio with duration 00:01.100
+2026-10-12 16:03:49,664 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=37 | duration=1.10s | segments=1
+2026-10-12 16:03:49,664 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=38 | region=38 | start=147.10s | end=149.50s | duration=2.40s
+2026-10-12 16:03:49,666 | INFO | faster_whisper | Processing audio with duration 00:02.400
+2026-10-12 16:03:57,924 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=38 | duration=2.40s | segments=1
+2026-10-12 16:03:57,924 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=39 | region=39 | start=150.20s | end=151.60s | duration=1.40s
+2026-10-12 16:03:57,924 | INFO | faster_whisper | Processing audio with duration 00:01.400
+2026-10-12 16:04:09,406 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=39 | duration=1.40s | segments=1
+2026-10-12 16:04:09,406 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=40 | region=40 | start=153.20s | end=156.80s | duration=3.60s
+2026-10-12 16:04:09,406 | INFO | faster_whisper | Processing audio with duration 00:03.600
+2026-10-12 16:04:25,493 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=40 | duration=3.60s | segments=2
+2026-10-12 16:04:25,503 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=41 | region=41 | start=157.50s | end=162.70s | duration=5.20s
+2026-10-12 16:04:25,503 | INFO | faster_whisper | Processing audio with duration 00:05.200
+2026-10-12 16:04:42,025 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=41 | duration=5.20s | segments=3
+2026-10-12 16:04:42,025 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=42 | region=42 | start=163.50s | end=170.60s | duration=7.10s
+2026-10-12 16:04:42,026 | INFO | faster_whisper | Processing audio with duration 00:07.100
+2026-10-12 16:04:57,618 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=42 | duration=7.10s | segments=1
+2026-10-12 16:04:57,618 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=43 | region=43 | start=171.50s | end=179.10s | duration=7.60s
+2026-10-12 16:04:57,618 | INFO | faster_whisper | Processing audio with duration 00:07.600
+2026-10-12 16:05:13,773 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=43 | duration=7.60s | segments=3
+2026-10-12 16:05:13,773 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=44 | region=44 | start=180.40s | end=181.40s | duration=1.00s
+2026-10-12 16:05:13,773 | INFO | faster_whisper | Processing audio with duration 00:01.000
+2026-10-12 16:05:27,448 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=44 | duration=1.00s | segments=1
+2026-10-12 16:05:27,448 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=45 | region=45 | start=181.90s | end=182.50s | duration=0.60s
+2026-10-12 16:05:27,448 | INFO | faster_whisper | Processing audio with duration 00:00.600
+2026-10-12 16:05:41,327 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=45 | duration=0.60s | segments=1
+2026-10-12 16:05:41,327 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=46 | region=46 | start=183.00s | end=184.60s | duration=1.60s
+2026-10-12 16:05:41,327 | INFO | faster_whisper | Processing audio with duration 00:01.600
+2026-10-12 16:05:54,663 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=46 | duration=1.60s | segments=1
+2026-10-12 16:05:54,663 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=47 | region=47 | start=186.00s | end=201.70s | duration=15.70s
+2026-10-12 16:05:54,663 | INFO | faster_whisper | Processing audio with duration 00:15.700
+2026-10-12 16:06:14,699 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=47 | duration=15.70s | segments=5
+2026-10-12 16:06:14,699 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=48 | region=48 | start=202.40s | end=207.00s | duration=4.60s
+2026-10-12 16:06:14,699 | INFO | faster_whisper | Processing audio with duration 00:04.600
+2026-10-12 16:06:29,149 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=48 | duration=4.60s | segments=1
+2026-10-12 16:06:29,149 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=49 | region=49 | start=207.80s | end=209.90s | duration=2.10s
+2026-10-12 16:06:29,149 | INFO | faster_whisper | Processing audio with duration 00:02.100
+2026-10-12 16:06:42,700 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=49 | duration=2.10s | segments=1
+2026-10-12 16:06:42,700 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=50 | region=50 | start=211.00s | end=214.70s | duration=3.70s
+2026-10-12 16:06:42,700 | INFO | faster_whisper | Processing audio with duration 00:03.700
+2026-10-12 16:06:56,767 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=50 | duration=3.70s | segments=1
+2026-10-12 16:06:56,767 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=51 | region=51 | start=215.30s | end=221.80s | duration=6.50s
+2026-10-12 16:06:56,767 | INFO | faster_whisper | Processing audio with duration 00:06.500
+2026-10-12 16:07:06,870 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=51 | duration=6.50s | segments=1
+2026-10-12 16:07:06,872 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=52 | region=52 | start=224.40s | end=230.20s | duration=5.80s
+2026-10-12 16:07:06,872 | INFO | faster_whisper | Processing audio with duration 00:05.800
+2026-10-12 16:07:21,587 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=52 | duration=5.80s | segments=2
+2026-10-12 16:07:21,587 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=53 | region=53 | start=231.00s | end=245.50s | duration=14.50s
+2026-10-12 16:07:21,588 | INFO | faster_whisper | Processing audio with duration 00:14.500
+2026-10-12 16:07:43,534 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=53 | duration=14.50s | segments=6
+2026-10-12 16:07:43,535 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=54 | region=54 | start=246.10s | end=248.50s | duration=2.40s
+2026-10-12 16:07:43,535 | INFO | faster_whisper | Processing audio with duration 00:02.400
+2026-10-12 16:07:58,626 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=54 | duration=2.40s | segments=1
+2026-10-12 16:07:58,626 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=55 | region=55 | start=249.20s | end=250.50s | duration=1.30s
+2026-10-12 16:07:58,626 | INFO | faster_whisper | Processing audio with duration 00:01.300
+2026-10-12 16:08:13,391 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=55 | duration=1.30s | segments=1
+2026-10-12 16:08:13,391 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=56 | region=56 | start=251.20s | end=252.00s | duration=0.80s
+2026-10-12 16:08:13,392 | INFO | faster_whisper | Processing audio with duration 00:00.800
+2026-10-12 16:08:27,757 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=56 | duration=0.80s | segments=1
+2026-10-12 16:08:27,757 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=57 | region=57 | start=252.70s | end=253.10s | duration=0.40s
+2026-10-12 16:08:27,757 | INFO | faster_whisper | Processing audio with duration 00:00.400
+2026-10-12 16:08:41,533 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=57 | duration=0.40s | segments=1
+2026-10-12 16:08:41,533 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=58 | region=58 | start=254.80s | end=257.00s | duration=2.20s
+2026-10-12 16:08:41,533 | INFO | faster_whisper | Processing audio with duration 00:02.200
+2026-10-12 16:08:55,636 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=58 | duration=2.20s | segments=1
+2026-10-12 16:08:55,636 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=59 | region=59 | start=257.50s | end=260.60s | duration=3.10s
+2026-10-12 16:08:55,636 | INFO | faster_whisper | Processing audio with duration 00:03.100
+2026-10-12 16:09:10,166 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=59 | duration=3.10s | segments=1
+2026-10-12 16:09:10,167 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=60 | region=60 | start=261.10s | end=274.50s | duration=13.40s
+2026-10-12 16:09:10,167 | INFO | faster_whisper | Processing audio with duration 00:13.400
+2026-10-12 16:09:28,950 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=60 | duration=13.40s | segments=3
+2026-10-12 16:09:28,951 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=61 | region=61 | start=274.90s | end=284.30s | duration=9.40s
+2026-10-12 16:09:28,951 | INFO | faster_whisper | Processing audio with duration 00:09.400
+2026-10-12 16:09:47,480 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=61 | duration=9.40s | segments=3
+2026-10-12 16:09:47,480 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=62 | region=62 | start=284.70s | end=297.00s | duration=12.30s
+2026-10-12 16:09:47,480 | INFO | faster_whisper | Processing audio with duration 00:12.300
+2026-10-12 16:10:03,818 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=62 | duration=12.30s | segments=3
+2026-10-12 16:10:03,818 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=63 | region=63 | start=297.90s | end=308.70s | duration=10.80s
+2026-10-12 16:10:03,818 | INFO | faster_whisper | Processing audio with duration 00:10.800
+2026-10-12 16:10:23,902 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=63 | duration=10.80s | segments=7
+2026-10-12 16:10:23,902 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=64 | region=64 | start=309.30s | end=311.80s | duration=2.50s
+2026-10-12 16:10:23,902 | INFO | faster_whisper | Processing audio with duration 00:02.500
+2026-10-12 16:10:38,965 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=64 | duration=2.50s | segments=3
+2026-10-12 16:10:38,966 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=65 | region=65 | start=312.40s | end=314.40s | duration=2.00s
+2026-10-12 16:10:38,966 | INFO | faster_whisper | Processing audio with duration 00:02.000
+2026-10-12 16:10:53,240 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=65 | duration=2.00s | segments=1
+2026-10-12 16:10:53,240 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=66 | region=66 | start=315.20s | end=322.10s | duration=6.90s
+2026-10-12 16:10:53,240 | INFO | faster_whisper | Processing audio with duration 00:06.900
+2026-10-12 16:11:09,570 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=66 | duration=6.90s | segments=5
+2026-10-12 16:11:09,570 | INFO | src.transcriber.services.transcription | Processing chunk | chunk=67 | region=67 | start=322.90s | end=329.17s | duration=6.27s
+2026-10-12 16:11:09,570 | INFO | faster_whisper | Processing audio with duration 00:06.269
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.transcription | Chunk completed | chunk=67 | duration=6.27s | segments=4
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.transcription | Transcription completed | duration=329.17s | chunks=67 | segments=111
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,913 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,929 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
+2026-10-12 16:11:25,934 | INFO | src.transcriber.services.guardrails | Transcription guardrails applied
